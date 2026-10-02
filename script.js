@@ -78,7 +78,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
     const msg = document.getElementById('quoteMessage').value;
     if(!name || !phone){ alert('Please enter your name and phone number.'); return; }
     const text = `Hi, I want a quote for: ${product}\nName: ${name}\nPhone: ${phone}\nMessage: ${msg}`;
-    window.open(`https://wa.me/91639074492?text=${encodeURIComponent(text)}`, '_blank');
+    window.open(`https://wa.me/919319869123?text=${encodeURIComponent(text)}`, '_blank');
     closeQuoteModal();
   }
 
